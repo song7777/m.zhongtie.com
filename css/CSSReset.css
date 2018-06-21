@@ -1,0 +1,51 @@
+/* CSS Reset*/
+html { font-family:"微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 625%;}
+body { margin: 0; font-size:100%; line-height: 20px; color: #000;background-color: #fff; height: 100%; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
+.html-1{
+    height: 100%;
+    overflow: hidden;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+a { background: transparent; text-decoration: none; color: #000; color:#666;font: 12px/12px 微软雅黑}
+a:active { outline: 0; }
+b, strong { font-weight: bold; }
+dfn { font-style:normal;}
+img { border: 0; vertical-align: middle; }
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    outline: none;
+}
+section::after{
+    content: '';
+    width: 100%;
+    clear: both;
+    display: block;
+}
+.wrapper{
+    overflow-x: hidden;
+    height: 100%;
+     -webkit-overflow-scrolling : touch;  
+}
+input,textarea,button { border: 0; margin: 0; padding: 0; font-family:"微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;}
+textarea { resize: none;}
+input{
+	outline:none;
+	box-shadow:none;
+	border:0;
+	
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th { padding: 0; }
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote { margin: 0; }
+ul, ol, li, dl, dd { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+input::-moz-placeholder, textarea::-moz-placeholder { color: #ccc; }
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #ccc; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #ccc; }
+
+
+/* Hides from IE-mac \*/
+* html{ height:1%;}
+/* End hide from IE-mac */
+/*Reset End*/

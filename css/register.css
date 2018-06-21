@@ -1,0 +1,16 @@
+.header_content .login{
+	background: none;
+}
+.header_content .register{
+	background: url(../img/underline.png) center bottom no-repeat ;
+	background-size:2.133333rem 0.16rem ;
+
+}
+.form #account{
+	background:url(../img/account.png) no-repeat;
+	background-size:0.453333rem 0.533333rem ;
+}
+.form #code{
+	background:url(../img/code.png) no-repeat;
+	background-size:0.453333rem 0.533333rem ;
+}

@@ -1,0 +1,101 @@
+body{
+	height: 100vh;
+	min-height: 100%;
+	background: url(../img/login.png) center bottom no-repeat  #008fff;
+	background-size: contain;
+	/*display: flex;
+	flex-direction: column;*/
+}
+.header{
+	width: 100%;
+	
+}
+.header_content{
+	width: 100%;
+	height:1.466666rem;
+	display: flex;
+	justify-content: space-around;
+		
+	
+}
+.header_content div{
+		width: 50%;
+		height: 0.786666rem;
+		margin-top: 0.666666rem;
+		text-align: center;
+		
+}
+.header_content .login{
+	background: url(../img/underline.png) center bottom no-repeat ;
+	background-size:2.133333rem 0.16rem ;
+
+}
+.login a{
+	border-right: 0.026666rem solid #FFFFFF;
+}
+.header_content div a{
+	width: 100%;
+	display: block;
+	height: 0.466666rem;
+	line-height:0.466666rem;
+	font-size:0.453333rem;
+	color: #FFFFFF;	
+
+}
+.form{
+	width: 100%;
+	/*flex: 1;*/
+	margin-top: 3.306666rem;
+}
+.form div{
+	width: 8.666666rem;
+	height: 1.453333rem;
+	line-height: 1.453333rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #FFFFFF;
+	
+}
+.form input{
+	font-size:0.44rem;
+	padding-left:0.653333rem;
+	margin-left: 0.266666rem;
+
+
+}
+
+.form #phone{
+	background: url(../img/phone.png) no-repeat;
+	background-size:0.453333rem 0.533333rem ;
+}
+.form #password{
+	background: url(../img/password.png) no-repeat;
+	background-size:0.453333rem 0.533333rem ;
+}
+	.footer_sure{
+			width: 100%;
+			position: fixed;
+			bottom: 0.266666rem;
+			
+		}
+		.footer_sure div{
+			width: 8.373333rem;
+			height:1.253333rem;
+			border: 0.013333rem solid #FFFFFF;
+			border-radius:0.2rem;
+			display: flex;
+			justify-content:center;
+			margin: 0 auto;
+			
+		
+		}
+		.footer_sure div a{
+			width: 80%;
+			height:100%;
+			position: absolute;
+		}
+		.footer_sure input{
+		
+			font-size:0.44rem;
+			background: none;
+			color: #F0F0F0;
+		}

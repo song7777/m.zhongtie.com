@@ -1,0 +1,178 @@
+
+	body{
+		background: #f0f0f0;
+		padding-bottom:1.306666rem;
+	}
+
+/*ask*/
+.ask{
+		width: 100%;
+		height: 1.466666rem;
+		padding: 0.28rem 0;
+		box-sizing: border-box;
+		margin-top:1.173333rem;
+	}
+	.ask_content{
+		
+		width: 6.226666rem;
+		height:0.933333rem;
+		margin: 0 auto;
+		border: 0.013333rem solid #008fff;
+		box-sizing: border-box;
+		border-radius: 0.2rem;
+		overflow: hidden;
+		
+		
+	}
+
+	.ask a{
+		display: inline-block;
+		font:0.36rem/0.933333rem "微软雅黑";
+		text-align: center;
+		width:3rem;
+		float: left;
+		
+	}
+	.ask a.topic{
+	background-color:#008fff;
+	color: #FFFFFF;
+	}
+	.ask a.discuss{
+		color: #008fff;
+	}
+	
+
+	
+/*end ask*/
+/*article*/
+	.article{
+		width: 9.333333rem;
+		height:5.2rem;
+		background-color: #FFFFFF;
+		border-radius:0.2rem;
+		margin: 0 auto;
+		padding:0.133333rem 0.266666rem ;
+		box-sizing: border-box;
+		margin-top: 0.213333rem;
+		
+	}
+	.article_top{
+		
+		height:0.56rem;
+		display: flex;
+	
+		
+		
+	}
+	.article_top .user{
+		margin-right:0.173333rem;
+		
+	
+	}
+	.article_top .user img{
+		width:0.56rem;
+		height:0.56rem;
+	}
+	.article_top  div{
+		width: 100%;
+		display: flex;
+		justify-content:space-between;
+	}
+	.article_top  div a:nth-child(1){
+		display: block;
+		color:#999999;
+		font: 0.306666rem/0.56rem "微软雅黑" ;
+
+		
+	}
+	.article_top  div .reply{
+		display: block;
+		color: #fe2d1d;
+		font: 0.306666rem/0.56rem "微软雅黑" ;
+		
+	}
+	.article h2{
+		font:0.453333rem/0.453333rem "微软雅黑";
+		margin: 0.213333rem 0;
+		font-weight: 500;
+		position: relative;
+	}	
+	.article h2 a{
+		position: absolute;
+		/*display: inline-block;*/
+		top: 50%;
+		margin-top: -0.213333rem;
+		right: 0;
+	}
+	.article h2 a img{
+		width: 0.4rem;
+		height: 0.093333rem;
+	}
+	.article article {
+		overflow : hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+	}
+	.article article a{
+		display: block;
+		font: 0.373333rem/0.48rem "微软雅黑";
+		color:#808080;
+	}
+	.article .photo{
+	
+		display: flex;
+		margin:0.253333rem 0;
+
+	}
+	.article .photo img{
+		margin-right: 0.173333rem;
+		width: 1.173333rem;
+		height: 1.173333rem;
+	}
+	.article .time{
+		height: 0.36rem;
+		color:#808080;
+		
+		
+	}
+	.article .time p{
+		display: block;
+		float: left;
+		font:0.306666rem/0.36rem "微软雅黑" ;
+		width:4.4rem;	
+	}
+	.article .time .time_right{
+		float: right;
+		box-sizing: border-box;
+		display: flex;
+		
+	}
+	.article .time .view{
+		padding-left: 0.533333rem;
+		margin-right: 0.4rem;
+		font:0.253333rem/0.36rem "微软雅黑" ;
+		background: url(../img/view.png) 0 center no-repeat;
+	}
+	.article .time .discuss{
+		padding-left: 0.533333rem;
+		font:0.253333rem/0.36rem "微软雅黑" ;
+		background: url(../img/discuss.png)  0 center no-repeat;
+	}
+/*end article*/
+/*footer*/
+	
+	.footer_content .answers{
+		color: #008FFF;
+		background: url(../img/answers_blue.png)   center 0 no-repeat;
+	}
+
+/*end footer*/
+.quiz{
+	width: 1.28rem;	
+	height: 1.28rem;
+	position: fixed;
+	right: 0.6rem;
+	bottom: 1.6rem;
+}

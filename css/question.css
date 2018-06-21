@@ -1,0 +1,63 @@
+.content{
+	margin-top:1.8rem;
+	width: 100%;
+	height: 9.266666rem;
+	padding: 0 0.826666rem;
+	box-sizing: border-box;
+}
+.content form{
+	display: flex;
+ flex-direction:column
+}
+.content label{
+
+	font-size: 0.453333rem;
+}
+.content .title,.newpsw,.oldpsw {
+
+	width: 6.933333rem;
+	height: 1rem;
+	border: 1px solid #cfcfcf;
+	margin-bottom: 0.4rem;
+	margin-left: 0.306666rem;
+	border-radius: 0.133333rem;
+	font-size: 0.453333rem;
+}
+
+	textarea{
+		float: right;
+		width: 6.933333rem;
+		height: 5.266666rem;
+		border: 1px solid #CFCFCF;
+		font-size: 0.453333rem;
+		margin-left: 0.306666rem;
+		border-radius: 0.133333rem;
+
+	}
+
+.add{
+	width: 6.906666rem;
+	margin-left: 1.4rem;
+	margin-top: 0.266666rem;
+	display: flex;
+	 justify-content:space-around;
+	 box-sizing: border-box;
+}	
+.addimg{
+	
+	width: 2rem;
+	height: 2rem;
+	background: url(../img/addimg.png) no-repeat;
+	background-size:cover ;
+
+}
+.check{
+	margin-left: 1.4rem;
+	margin-top: 0.266666rem;
+}
+.check input{
+	width:0.4rem;
+	height: 0.4rem;
+
+}
+

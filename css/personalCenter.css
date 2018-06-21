@@ -1,0 +1,77 @@
+
+	body{
+		background: #f0f0f0;
+		padding-bottom:1.306666rem;
+	}
+	section{
+		width: 100%;
+		margin-bottom: 0.266666rem;
+		
+	}
+	section div{
+		display: flex;
+		justify-content:space-between;
+		align-items: center;
+		padding:0 0.4rem 0 0.506666rem ;
+		height: 1.333333rem;
+		line-height: 1.333333rem;
+		box-sizing: border-box;
+	}
+	section div a{
+		font-size: 0.453333rem;
+		color: #666666;
+		margin-left: 0.746666rem;
+		width:80%;
+	}
+	section div img{
+		width: 0.213333rem;
+		height: 0.373333rem;
+	}
+	
+	
+	.info{
+		height: 1.6rem;
+		line-height: 1.6rem;
+		margin-top: 1.36rem;
+		background: url(../img/personal.png) 0.506666rem center no-repeat #FFFFFF;
+		
+	}
+	
+	
+	 .user img{
+		width:1.066666rem;
+		height:1.066666rem;
+	}
+	
+
+	
+
+	.phone{
+		
+		background: url(../img/phone2.png)  0.506666rem center no-repeat #FFFFFF;
+		border-bottom: 1px solid #dddddd;
+	}
+	.identity{
+		background: url(../img/identity.png)  0.506666rem center no-repeat #FFFFFF;
+			border-bottom: 1px solid #dddddd;
+	}
+	.password{
+		background: url(../img/password2.png) 0.506666rem center no-repeat #FFFFFF;
+		
+	}
+	.mytopic{
+		background: url(../img/answers.png) 0.506666rem center no-repeat #FFFFFF;
+		
+	}
+	.mylogout{
+		background: url(../img/logout.png) 0.506666rem center no-repeat #FFFFFF;
+		
+	}
+	
+	
+	
+	.footer_content .personal{
+		background: url(../img/personal_blue.png)  center 0 no-repeat;
+		color:#008FFF;
+	
+	}

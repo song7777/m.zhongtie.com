@@ -1,0 +1,123 @@
+/*header*/
+	.header{
+		width:100%;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		height:1.173333rem ;
+		box-sizing: border-box;
+		
+	}
+	 .header_content{
+		width: 100%;
+		line-height:1.173333rem;
+		background-color:#008fff;
+		text-align: center;
+		font-size: 0;
+		
+			
+	}
+	.home{
+		font:0.453333rem/1.173333rem "微软雅黑";
+		color: #FFFFFF;;
+		position: relative;
+	}
+	.find{
+		display: inline-block;
+		width: 0.586666rem;
+		height:0.586666rem;
+		background: url(../img/find.png) no-repeat;
+		position: absolute;
+		top: 0.306666rem;
+		right: 0.6rem;
+		color: #FFFFFF;
+	}
+	.return_left{
+		display: inline-block;
+		width: 0.32rem;
+		height:0.56rem;
+		background: url(../img/return_left.png) no-repeat;
+		position: absolute;
+		top: 0.4rem;
+		left: 0.6rem;
+		color: #FFFFFF;
+	}
+	
+/*end header*/
+
+/*footer*/
+	.footer{
+		width: 100%;
+		height: 1.306666rem;
+		/*position: fixed;*/
+		/*bottom: 0;*/
+		border-top:0.013333rem solid #dddddd ;
+	}
+	.footer_content{
+		width: 100%;
+		height: 1.306666rem;
+		background: #ffffff;
+		font-size: 0;
+		display: flex;
+		justify-content:space-around;
+		position: fixed;
+		bottom: 0;
+		
+	}
+	.footer_content a{
+		display: block;
+		margin-top: 0.226666rem;
+		padding-top: 0.226666rem;
+		color: #999999;
+		font: 0.306666rem/1.066666rem "微软雅黑";
+		box-sizing: border-box;
+	}
+	.footer_content .answers{
+		background: url(../img/answers.png)   center 0 no-repeat;
+	}
+	.footer_content .job{
+		background: url(../img/job.png)  center 0 no-repeat;
+	}
+	.footer_content .personal{
+		background: url(../img/personal.png)  center 0 no-repeat;
+	}
+	.footer_content .table_discussion{
+		
+		background: url(../img/table.png)  center 0 no-repeat;
+		
+	}
+	
+	
+/*footer_sure*/
+		.footer_sure{
+			width: 100%;
+			position: fixed;
+			bottom: 0.546666rem
+			
+		}
+		.footer_sure div{
+			width: 8.373333rem;
+			height:1.253333rem;
+			border: 0.013333rem solid #FFFFFF;
+			border-radius:0.2rem;
+			display: flex;
+			justify-content:center;
+			margin: 0 auto;
+			background: #008FFF;
+			
+		
+		}
+		.footer_sure div a{
+			width: 80%;
+			height:100%;
+			position: absolute;
+		}
+		.footer_sure input{
+		
+			font-size:0.44rem;
+			background: none;
+			color: #F0F0F0;
+		}
+
+
+/*end footer*/

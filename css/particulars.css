@@ -1,0 +1,138 @@
+body{
+	background:#f0f0f0;
+}
+.article {
+	width: 100%;
+	height: 7.6rem;
+	margin-top:1.4rem;
+	padding: 0 0.266666rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+}
+.article_top{
+	margin:0.266666rem 0 ;
+}
+.article_top h2{
+	font-size: 0.493333rem;
+}
+.article div a,p{
+	display: block;
+	font: 0.306666rem/0.266666rem "微软雅黑";
+	color: #CCCCCC;
+	
+}
+
+.time a{
+	float: left;
+}
+.time p{
+	float: left;
+	margin-left:1.066666rem;
+}
+.article article a{
+	font: 0.4rem/0.693333rem "微软雅黑";
+}
+.photo{
+	    width: 2rem;
+       height: 2rem;
+       display: flex;
+       margin: 0.253333rem 0;
+}
+.photo img{
+	margin-right: 0.173333rem;
+}
+.comment{
+	width: 100%;
+	/*height: 9.786666rem;*/
+	display: flex;
+	flex-direction: column;
+	padding:0 0.266666rem;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	margin-top: 0.133333rem;
+	
+	
+}
+
+.comment_header h3{
+	font: 0.4rem/0.8rem "微软雅黑";
+	float: left;
+}
+.comment_header div,span{
+	font: 0.28rem/0.8rem "微软雅黑";
+	float: right;
+	
+}
+.comment_header span{
+	color:#008FFF;
+	margin-right: 0.8rem;
+}
+.comment_header a{
+	float: right;
+	margin-top:0.266666rem;
+}
+.comment_btm_top {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin-left:0.133333rem;
+}
+.comment_btm_top a{
+	font:0.346666rem/0.693333rem "微软雅黑";
+	
+}
+.comment_btm_top>a{
+	color: #008FFF;
+}
+.comment_btm_top p{
+	display: block;
+	width: 5.5rem;
+}
+.user{
+	float: left;
+	margin-top: 0.266666rem;
+}
+.comment_btm_top div div {
+	margin-left: 0.8rem;
+	
+}
+.comment_btm>article {
+	margin-left: 0.933333rem;
+}
+.comment_btm>article a{
+	font:0.306666rem/0.613333rem "微软雅黑";
+}
+.comment .copy{
+	margin-left: 0.933333rem;
+}
+
+.footer_content{
+	background: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.373333rem;
+}
+.footer_content input{
+	font-size: 0.373333rem;
+	border-radius: 0.133333rem;
+}
+.footer_content input[type="text"]{
+	width:7.6rem ;
+	height: 0.933333rem;
+	line-height: 0.933333rem;
+	background: #FFFFFF;
+	margin-right: 0.4rem;
+	
+	
+}
+.footer_content input[type="button"]{
+	width: 1.466666rem;
+	height: 0.933333rem;
+	background: #008FFF;
+	color: #FFFFFF;
+	
+	
+}

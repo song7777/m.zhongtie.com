@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   	<script src="js/FontSize.js"> </script>
+   	<link rel="stylesheet" type="text/css" href="css/CSSReset.css"/>
+   	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+   	<link rel="stylesheet" type="text/css" href="css/question.css"/>
+
+   	
+    <title>我要提问</title>
+    
+	
+</head>
+<body>
+	<header class="header">
+		<div class="header_content">
+			<a href="particulars.html" class="return_left"></a>
+			<a href="#" class="home">创建页面讨论</a>
+		</div>
+	</header>
+	<section class="content">
+		<form action="" method="post" enctype="multipart/form-data">
+			<label>标题:<input type="text" name="" id="" value="" class="title"/></label><br />
+			<label>内容:<textarea name="" rows="" cols="" placeholder="输入文字限制在xx个字以内"></textarea></label>
+			<div class="add">
+				<div class="addimg">
+						
+					
+						<!--<input type="file" onchange="preView(this)"/>
+						<br/>
+						<img id="img_upload" src="" width="100" />-->
+					</div>
+					<div class="addimg"></div>
+					<div class="addimg"></div>
+			</div>
+			<div class="check">
+			
+			<label><input type="radio" name="open" id="" value=""  class="open"/>公开</label>
+			<label><input type="radio" name="open" id="" value="" />不公开</label>
+			</div>
+		</form>
+			
+			
+	</section>
+	
+<footer class="footer_sure">
+			<div >
+				<input type="submit" name="" id="submit" value="确定"  />
+				<a href="index.html"></a>
+			</div>
+		</footer>
+		
+		
+</footer>	
+</body>
+<script src="js/jquery-3.3.1.js"></script>
+<!--<script type="text/javascript">
+	function preView(file){
+	var img = document.getElementById("img_upload");
+	var reader = new FileReader();
+	reader.onload = function(evt) {
+	img.src = evt.target.result;
+	}
+	reader.readAsDataURL(file.files[0]);
+	}
+</script>-->
+</html>
